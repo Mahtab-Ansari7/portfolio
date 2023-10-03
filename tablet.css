@@ -1,0 +1,113 @@
+
+body{
+    overflow-x: hidden;
+    margin: 0px;
+}
+#about img {
+    height: 395px;
+    margin: 0px 107px;
+    width: 567px;
+}
+#about .h21 {
+    font-size: 62px;
+    margin-top: -58px;
+    margin-left: -195px;
+    z-index: 1;
+    position: relative;
+    font-weight: 300;
+    color: #0b9de4e6;
+}
+#about .h22 {
+    font-size: 62px;
+    margin-top: -16px;
+    margin-left: 147px;
+    margin-bottom: 25px;
+    z-index: 1;
+    position: relative;
+    font-weight: 300;
+    color: #0b9de4e6;
+}
+.visit_form h3 {
+    font-size: 52px;
+    margin-right: 100px;
+    margin-top: 99px;
+    color: white;
+}
+.visit_form {
+   width: 100%;
+}
+.icon {
+    font-size: 30px;
+    margin-top: -30px;
+}
+input[type='text'] {
+        width: 507px;
+        margin-top: -22px;
+        font-size: 17px;
+}
+input[type="email"] {
+    width: 507px;
+        margin-top: -22px;
+        font-size: 17px;
+}
+input[type="submit"] {
+    padding: 12px 42px;
+    margin-right: 386px;
+    margin-top: 18px;
+    font-size: 17px;
+}
+.message textarea{
+    margin-top: -13px;
+    width: 507px;
+    text-align: start;
+    height: 131px;
+    font-size: 17px;
+}
+/* styling about  */
+#intro{
+    margin: 121px;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+.xyz{
+    font-size: 92px;
+    color: #7b7bf3;
+    width: 116%;
+}
+.profile img{
+    height: 497px;
+    width: 473px;
+}
+.container{
+    width: 100%;
+    background-color: #000090c2;
+    color: white;
+    padding:9px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.head{
+    font-size: 72px;
+    width: 843px;
+}
+.container2{
+    font-size: large;
+    display: flex;
+}
+.shead{
+    width: 300px;
+    height: 250px;
+}
+.spara{
+    width: 500px;
+    line-height: 1.5rem;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+}
+

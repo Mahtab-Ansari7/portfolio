@@ -1,0 +1,204 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e9eaee;
+}
+/* navigation styling */
+
+header{
+    height: 100px;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+.navbar a{
+    text-decoration: none;
+    font-size: 17px;
+    padding: 1px 20px;
+    color: black;
+}
+.navbar a:hover{
+    text-decoration: underline;
+   opacity: 0.7;
+}
+/* about styling */
+#about{
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#about img{
+    height: 847px;
+    margin: 0px 107px;
+    width: 1550px;
+}
+#about .h21{
+    font-size: 173px;
+    margin-bottom: -35px;
+    margin-top: -58px;
+    margin-left: -501px;
+    z-index: 1;
+    position: relative;
+    font-weight: 300;
+    color: #0b9de4e6;
+}
+#about .h22{
+    font-size: 173px;
+    margin-top: -22px;
+    margin-left: 409px;
+    margin-bottom: 20px;
+    z-index: 1;
+    position: relative;
+    font-weight: 300;
+    color: #0b9de4e6;
+}
+/* visit_formm styling */
+.visit_form{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* justify-content: center; */
+    align-items: center;
+    top: 92px;
+    height: fit-content;
+    width: 106%;
+    background-color: #23239edb;
+    z-index: 1;
+}
+.visit_form h3{
+    font-size: 52px;
+    margin-top: 99px;
+    color: white;
+}
+h4{
+    font-size: 23px;
+    color: white;
+}
+.icon{
+    font-size: 30px;
+    margin-top: -30px;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.icon a:hover{
+    opacity: 0.7;
+}
+input[type='text']{
+    margin-top: -13px;
+    padding: 7px 6px;
+    width: 763px;
+    height: 55px;
+    font-size: 17px;
+}
+.message textarea{
+    margin-top: -13px;
+    padding: 7px 6px;
+    width: 763px;
+    text-align: start;
+    height: 131px;
+    font-size: 17px;
+}
+input[type="email"] {
+    margin-top: -13px;
+    padding: 7px 6px;
+    width: 763px;
+    height: 55px;
+    font-size: 17px;
+}
+input[type="submit"] {
+    padding: 12px 42px;
+    margin-right: 631px;
+    margin-top: 18px;
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+
+/* styling about  */
+#intro{
+    margin: 121px;
+    margin-top: 0px;
+    padding: 0px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+}
+.xyz{
+    font-size: 113px;
+    color: #7b7bf3;
+}
+.profile img{
+    height: 671px;
+    width: 640px;
+}
+.container{
+    width: 100%;
+    background-color: #000090c2;
+    color: white;
+    padding: 83px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.head{
+    font-size: 72px;
+    width: 843px;
+}
+.container2{
+    font-size: large;
+    display: flex;
+}
+.shead{
+    width: 300px;
+    height: 250px;
+}
+.spara{
+    width: 500px;
+    line-height: 1.5rem;
+}
+.exp{
+    display: flex;
+    flex-direction: column;
+}
+/* contact styling */
+.contactinfo{
+    background-color: gainsboro;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content1{
+display: flex;
+flex-direction: row;
+}
+.content2{
+ display: flex;
+flex-direction: row;
+}
+.need{
+font-size: 112px;
+color: #000090c2;
+text-align: center;
+margin-top: -110px;
+}
+.subheading{
+    font-weight: 600;
+    color: #000090c2;
+    font-size: 23px;
+    width: 250px;
+}
+.subpara{
+width: 500px;
+font-size: 20px;
+height: 180px;
+}
